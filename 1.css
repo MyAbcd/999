@@ -1,0 +1,49 @@
+body {
+   margin: 0px;
+   padding: 0px;
+   background-color: #FFFFEE;
+}
+#words{
+	margin:0 auto;
+	display: block;
+	padding:0 100px; 
+	font-size: 60px;
+	font-family: "STCaiyun"; 
+}
+#myCanvas{
+	margin-left: 10px;
+}
+#pic{
+	position: fixed;
+	top: 60%;
+	left: 6%;
+}
+#pic img{
+	width: 160px;
+	height: 220px;
+	margin-right: 70px;
+	margin-left: 15px;
+	-webkit-transition:  1s;
+	-moz-transition:  1s;
+	-ms-transition:  1s;
+	-o-transition:  1s;
+	transition:  1s;
+}
+#pic img:hover{
+	-webkit-transform: rotate3D(1,0,0,360deg);
+	-moz-transform: rotate3D(1,0,0,360deg);
+	transform: rotate3D(1,0,0,360deg);
+	-o-transform: rotate3D(1,0,0,360deg);
+}
+#pic1{
+	border:10px solid red;
+}
+#pic2{
+	border:10px solid #FFC636;
+}
+#pic3{
+	border:10px solid #7700FF;
+}
+#pic4{
+	border:10px solid #02A817;
+}
